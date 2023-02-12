@@ -31,9 +31,7 @@ public class AssinArr{
         LOGGER.info(s);
     }
     public  boolean getConfrm(int rv, int cv,char[][] ar2){
-        if(ar2[rv][cv] == 0)
-            return true;
-        return false;
+        return (ar2[rv][cv] == 0);
     }
     public int rowCheck(int r,int dim,char[][] gameArr,char inp1){
         int count=0;
