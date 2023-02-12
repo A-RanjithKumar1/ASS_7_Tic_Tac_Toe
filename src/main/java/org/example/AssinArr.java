@@ -1,5 +1,4 @@
 package org.example;
-
 import java.util.*;
 import java.util.logging.*;
 public class AssinArr{
@@ -162,7 +161,6 @@ public class AssinArr{
                     a. player2(dimension,disp,player2);
                 }
             }
-            System.out.println(a.control);
         }
     }
 }
